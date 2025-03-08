@@ -1,5 +1,6 @@
 <script>
     let title = "Hi, my name is Mohamed Kaid";
+    let image = "image/backgroundPic.png";
 </script>
 
 <style>
@@ -16,10 +17,10 @@
     }
 </style>
 
-<main class="flex flex-col justify-center items-center h-screen animated-bg text-white">
-    <img src="" alt="">
+<main class="flex flex-col justify-center items-center h-screen bg-cover bg-center text-white" >
     <h1 class="text-4xl font-bold">{title}</h1>
 </main>
+
 
 
 
